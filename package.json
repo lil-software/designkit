@@ -1,0 +1,25 @@
+{
+  "name": "@lil-software/designkit",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/lil-software"
+  },
+  "version": "0.0.1",
+  "description": "DesignKit by lil software",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lil-software/designkit.git"
+  },
+  "author": "lil software, LLC",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lil-software/designkit/issues"
+  },
+  "homepage": "https://github.com/lil-software/designkit",
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "private": true
+}
