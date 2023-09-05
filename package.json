@@ -1,7 +1,7 @@
 {
-  "name": "@lilsoftware/designkit",
+  "name": "@lil-software/designkit",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/lilsoftware"
+    "registry": "https://npm.pkg.github.com/lil-software"
   },
   "version": "0.0.1",
   "description": "DesignKit by lil software",
