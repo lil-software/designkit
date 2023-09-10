@@ -10,6 +10,6 @@ jobs:
         with:
           bun-version: latest
       - name: Bundle
-        run: bun build src --outdir dist
+        run: bun build ../src --outdir ../dist
       - name: Declare
         run: tsc --declaration
