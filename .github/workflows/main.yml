@@ -1,0 +1,15 @@
+name: Build
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+      - name: Bundle
+        run: bun build ./src --outdir ./dist
+      - name: Declare
+        run: tsc --declaration
