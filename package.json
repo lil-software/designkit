@@ -3,7 +3,10 @@
   "main": "dist/src/index",
   "module": "dist/src/index",
   "types": "dist/index",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/lil-software"
   },
@@ -20,6 +23,7 @@
   },
   "homepage": "https://github.com/lil-software/designkit",
   "devDependencies": {
+    "@types/node": "^20.6.0",
     "@types/react": "^18.0.28",
     "react": "^18.2.0",
     "typescript": "^4.9.5"
