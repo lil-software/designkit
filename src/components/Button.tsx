@@ -1,9 +1,11 @@
 import * as React from "react";
 
-export function Button({
+const Button = ({
   variant = "primary",
 }: {
   variant: "primary" | "secondary";
-}) {
+}) => {
   return <button>Button</button>;
-}
+};
+
+export default Button;
