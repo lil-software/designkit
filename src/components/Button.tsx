@@ -5,7 +5,7 @@ const Button = ({
 }: {
   variant: "primary" | "secondary";
 }) => {
-  return <button>Button</button>;
+  return <button>Text</button>;
 };
 
 export default Button;
