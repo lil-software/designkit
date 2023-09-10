@@ -1,11 +1,13 @@
 {
   "name": "@lil-software/designkit",
+  "main": "dist/src/index.js",
+  "module": "dist/src/index.js",
+  "files": [ "dist", "README.md" ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/lil-software"
   },
   "version": "0.0.1",
   "description": "DesignKit by lil software",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lil-software/designkit.git"
