@@ -10,7 +10,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/lil-software"
   },
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "DesignKit by lil software",
   "repository": {
     "type": "git",
