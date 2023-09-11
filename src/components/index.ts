@@ -1,18 +1,18 @@
 export enum Font {
-  largeTitle,
-  title,
-  title2,
-  title3,
-  headline,
-  subheadline,
-  body,
-  callout,
-  caption,
-  caption2,
-  footnote,
+  largeTitle = "largeTitle",
+  title = "title",
+  title2 = "title2",
+  title3 = "title3",
+  headline = "headline",
+  subheadline = "subheadline",
+  body = "body",
+  callout = "callout",
+  caption = "caption",
+  caption2 = "caption2",
+  footnote = "footnote",
 }
 
 export enum ButtonVariant {
-  primary,
-  secondary,
+  primary = "primary",
+  secondary = "secondary",
 }
