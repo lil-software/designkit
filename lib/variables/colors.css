@@ -1,0 +1,193 @@
+/* Light */
+:root,
+[color-scheme="light"] {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red: #ff3b30;
+  --color-orange: #ff9500;
+  --color-yellow: #ffc107;
+  --color-green: #34c759;
+  --color-mint: #00c7be;
+  --color-teal: #30c1c7;
+  --color-cyan: #32d7e5;
+  --color-blue: #007aff;
+  --color-indigo: #5856d6;
+  --color-purple: #af52de;
+  --color-pink: #ff2d55;
+  --color-brown: #a6875e;
+  --color-gray: #8e8e93;
+  --color-gray2: #aeaeb2;
+  --color-gray3: #c7c7cc;
+  --color-gray4: #d1d1d6;
+  --color-gray5: #e5e5ea;
+  --color-gray6: #f2f2f7;
+}
+
+/* Dark */
+@media (prefers-color-scheme: dark) {
+  :root,
+  [color-scheme="dark"] {
+    --color-red: #ff453a;
+    --color-orange: #ff9f0a;
+    --color-yellow: #ffd60a;
+    --color-green: #30d158;
+    --color-mint: #64d2ff;
+    --color-teal: #0a84ff;
+    --color-cyan: #64d2ff;
+    --color-blue: #0a84ff;
+    --color-indigo: #5856d6;
+    --color-purple: #bf5af2;
+    --color-pink: #ff375f;
+    --color-brown: #b98b6d;
+    --color-gray: #8e8e93;
+    --color-gray2: #636366;
+    --color-gray3: #48484a;
+    --color-gray4: #3a3a3c;
+    --color-gray5: #2c2c2e;
+    --color-gray6: #1c1c1e;
+  }
+}
+
+/* Red */
+[foreground="red"] {
+  color: var(--color-red);
+}
+[background="red"] {
+  background-color: var(--color-red);
+}
+
+/* Orange */
+[foreground="orange"] {
+  color: var(--color-orange);
+}
+[background="orange"] {
+  background-color: var(--color-orange);
+}
+
+/* Yellow */
+[foreground="yellow"] {
+  color: var(--color-yellow);
+}
+[background="yellow"] {
+  background-color: var(--color-yellow);
+}
+
+/* Green */
+[foreground="green"] {
+  color: var(--color-green);
+}
+[background="green"] {
+  background-color: var(--color-green);
+}
+
+/* Mint */
+[foreground="mint"] {
+  color: var(--color-mint);
+}
+[background="mint"] {
+  background-color: var(--color-mint);
+}
+
+/* Teal */
+[foreground="teal"] {
+  color: var(--color-teal);
+}
+[background="teal"] {
+  background-color: var(--color-teal);
+}
+
+/* Cyan */
+[foreground="cyan"] {
+  color: var(--color-cyan);
+}
+[background="cyan"] {
+  background-color: var(--color-cyan);
+}
+
+/* Blue */
+[foreground="blue"] {
+  color: var(--color-blue);
+}
+[background="blue"] {
+  background-color: var(--color-blue);
+}
+
+/* Indigo */
+[foreground="indigo"] {
+  color: var(--color-indigo);
+}
+[background="indigo"] {
+  background-color: var(--color-indigo);
+}
+
+/* Purple */
+[foreground="purple"] {
+  color: var(--color-purple);
+}
+[background="purple"] {
+  background-color: var(--color-purple);
+}
+
+/* Pink */
+[foreground="pink"] {
+  color: var(--color-pink);
+}
+[background="pink"] {
+  background-color: var(--color-pink);
+}
+
+/* Brown */
+[foreground="brown"] {
+  color: var(--color-brown);
+}
+[background="brown"] {
+  background-color: var(--color-brown);
+}
+
+/* Gray */
+[foreground="gray"] {
+  color: var(--color-gray);
+}
+[background="gray"] {
+  background-color: var(--color-gray);
+}
+
+/* Gray2 */
+[foreground="gray2"] {
+  color: var(--color-gray2);
+}
+[background="gray2"] {
+  background-color: var(--color-gray2);
+}
+
+/* Gray3 */
+[foreground="gray3"] {
+  color: var(--color-gray3);
+}
+[background="gray3"] {
+  background-color: var(--color-gray3);
+}
+
+/* Gray4 */
+[foreground="gray4"] {
+  color: var(--color-gray4);
+}
+[background="gray4"] {
+  background-color: var(--color-gray4);
+}
+
+/* Gray5 */
+[foreground="gray5"] {
+  color: var(--color-gray5);
+}
+[background="gray5"] {
+  background-color: var(--color-gray5);
+}
+
+/* Gray6 */
+[foreground="gray6"] {
+  color: var(--color-gray6);
+}
+[background="gray6"] {
+  background-color: var(--color-gray6);
+}

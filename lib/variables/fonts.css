@@ -1,0 +1,14 @@
+@import "https://rsms.me/inter/inter.css";
+
+/* Defaults */
+:root {
+  --font-size: 18px;
+  font-size: var(--font-size);
+  font-family: "Inter", sans-serif;
+}
+
+/* Fonts */
+:root {
+  --font-body: 1rem;
+  --font-large-title: 2rem;
+}

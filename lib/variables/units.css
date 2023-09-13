@@ -1,0 +1,11 @@
+:root {
+  --padding: 12px;
+  --gap: 10px;
+}
+
+[padding] {
+  padding: var(--padding);
+}
+[padding="20"] {
+  padding: 20px;
+}

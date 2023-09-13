@@ -1,0 +1,8 @@
+text,
+[font="body"] {
+  font-size: var(--font-body);
+}
+
+[font="large-title"] {
+  font-size: var(--font-large-title);
+}

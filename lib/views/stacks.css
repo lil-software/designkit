@@ -1,0 +1,60 @@
+/* Defaults */
+hstack,
+.hstack,
+vstack,
+.vstack {
+  display: flex;
+  align-items: center;
+  padding: var(--padding);
+  gap: var(--gap);
+}
+
+/* HStack */
+hstack,
+.hstack {
+  flex-direction: row;
+}
+
+/* VStack */
+vstack,
+.vstack {
+  flex-direction: column;
+}
+
+/* ZStack */
+zstack,
+.z-stack {
+  position: relative;
+}
+
+zstack > *,
+.z-stack > * {
+  position: absolute;
+}
+
+zstack[alignment="bottom-leading"] > *,
+.z-stack[alignment="bottom-leading"] > * {
+  bottom: 0;
+  left: 0;
+}
+
+/* Spacer */
+spacer {
+  flex: 1;
+}
+
+/* Divider */
+divider,
+.divider {
+  background-color: var(--color-gray);
+}
+
+vstack divider {
+  width: 100%;
+  height: 1px;
+}
+
+hstack divider {
+  width: 1px;
+  height: 100%;
+}
