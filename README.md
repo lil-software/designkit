@@ -1,4 +1,4 @@
-# DesignKit by [lil software](https://lil.software)
+# [DesignKit](https://kit.design) by [lil software](https://lil.software)
 A declarative syntax for the web. No frameworks, just plug and play.
 
 It's simple:
