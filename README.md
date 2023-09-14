@@ -19,7 +19,7 @@ It's simple:
 
 ---
 
-# Elements
+## Elements
 - [vstack](#vstack)
 - [hstack](#hstack)
 
@@ -31,7 +31,7 @@ An element that arranges its children in a horizontal stack.
 
 ---
 
-# Attributes
+## Attributes
 - [padding](#padding)
 - [font](#font)
 
