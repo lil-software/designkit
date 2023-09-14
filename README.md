@@ -1,4 +1,6 @@
-# [DesignKit](https://kit.design) by [lil software](https://lil.software)
+# DesignKit
+[kit.design](https://kit.design)
+
 A declarative syntax for the web. No frameworks, just plug and play.
 
 It's simple:
@@ -17,11 +19,9 @@ It's simple:
 
 ---
 
-## Elements
+# Elements
 - [vstack](#vstack)
 - [hstack](#hstack)
-
----
 
 ### `vstack`
 An element that arranges its children in a vertical stack.
@@ -31,9 +31,19 @@ An element that arranges its children in a horizontal stack.
 
 ---
 
-## Attributes
+# Attributes
 - [padding](#padding)
+- [font](#font)
+
+### `padding`
+- `small`
+- `large`
+- `xlarge`
+
+### `font`
+- `body`
+- `large-title`
 
 ---
 
-### `padding`
+By [lil software](https://lil.software) and [Jordan Singer](https://twitter.com/jsngr)
