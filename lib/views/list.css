@@ -1,0 +1,10 @@
+list {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+list > * {
+  flex: 1;
+  border-bottom: 1px solid var(--color-gray);
+  padding: var(--padding) 0;
+}

@@ -2,7 +2,7 @@
 
 /* Defaults */
 :root {
-  --font-size: 18px;
+  --font-size: 16px;
   font-size: var(--font-size);
   font-family: "Inter", sans-serif;
 }
@@ -10,5 +10,5 @@
 /* Fonts */
 :root {
   --font-body: 1rem;
-  --font-large-title: 2rem;
+  --font-large-title: 3rem;
 }

@@ -1,11 +1,41 @@
 :root {
+  --padding-small: 4px;
   --padding: 12px;
-  --gap: 10px;
+  --padding-large: 24px;
+  --padding-xlarge: 48px;
+  --gap: 12px;
 }
 
-[padding] {
+[padding=""] {
   padding: var(--padding);
 }
-[padding="20"] {
-  padding: 20px;
+[padding-small=""] {
+  --padding: var(--padding-small);
+}
+[padding-large=""] {
+  --padding: var(--padding-large);
+}
+[padding-xlarge=""] {
+  --padding: var(--padding-xlarge);
+}
+
+[padding="top"] {
+  padding-top: var(--padding);
+}
+[padding="bottom"] {
+  padding-bottom: var(--padding);
+}
+[padding="leading"] {
+  padding-left: var(--padding);
+}
+[padding="trailing"] {
+  padding-right: var(--padding);
+}
+[padding="horizontal"] {
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+}
+[padding="vertical"] {
+  padding-top: var(--padding);
+  padding-bottom: var(--padding);
 }

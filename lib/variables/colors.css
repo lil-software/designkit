@@ -48,6 +48,22 @@
   }
 }
 
+/* White */
+[foreground="white"] {
+  color: var(--color-white);
+}
+[background="white"] {
+  background-color: var(--color-white);
+}
+
+/* Black */
+[foreground="black"] {
+  color: var(--color-black);
+}
+[background="black"] {
+  background-color: var(--color-black);
+}
+
 /* Red */
 [foreground="red"] {
   color: var(--color-red);
