@@ -1,8 +1,6 @@
 /* Defaults */
 hstack,
-.hstack,
-vstack,
-.vstack {
+vstack {
   display: flex;
   align-items: center;
   padding: var(--padding);
@@ -10,30 +8,49 @@ vstack,
 }
 
 /* HStack */
-hstack,
-.hstack {
+hstack {
   flex-direction: row;
+}
+hstack:has(spacer) {
+  width: 100%;
+}
+hstack[alignment="top"] {
+  align-items: start;
+}
+hstack[alignment="center"] {
+  align-items: center;
+}
+hstack[alignment="bottom"] {
+  align-items: end;
 }
 
 /* VStack */
-vstack,
-.vstack {
+vstack {
   flex-direction: column;
+}
+vstack:has(spacer) {
+  height: 100%;
+}
+vstack[alignment="leading"] {
+  align-items: start;
+}
+vstack[alignment="center"] {
+  align-items: center;
+}
+vstack[alignment="trailing"] {
+  align-items: end;
 }
 
 /* ZStack */
-zstack,
-.z-stack {
+zstack {
   position: relative;
 }
 
-zstack > *,
-.z-stack > * {
+zstack > * {
   position: absolute;
 }
 
-zstack[alignment="bottom-leading"] > *,
-.z-stack[alignment="bottom-leading"] > * {
+zstack[alignment="bottom-leading"] > * {
   bottom: 0;
   left: 0;
 }
@@ -44,8 +61,7 @@ spacer {
 }
 
 /* Divider */
-divider,
-.divider {
+divider {
   background-color: var(--color-gray);
 }
 

@@ -1,0 +1,12 @@
+{
+  "name": "DesignKit",
+  "version": "0.0.1",
+  "dependencies": {
+    "cssnano": "^6.0.1",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0"
+  },
+  "scripts": {
+    "bundle": "postcss lib/main.css -o dist/main.$npm_package_version.css"
+  }
+}

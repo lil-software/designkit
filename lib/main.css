@@ -2,3 +2,10 @@
 @import "variables/variables.css";
 @import "views/views.css";
 @import "reset.css";
+
+:root {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  --padding: 12px;
+  --gap: 10px;
+}

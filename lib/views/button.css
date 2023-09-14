@@ -1,4 +1,3 @@
-button,
-.button {
+button {
   font-size: var(--font-body);
 }
