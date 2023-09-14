@@ -1,34 +1,12 @@
 {
-  "name": "@lil-software/designkit",
-  "version": "0.0.6",
-  "main": "dist/src/index",
-  "module": "dist/src/index",
-  "types": "dist/index",
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/lil-software"
-  },
-  "description": "DesignKit by lil software",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lil-software/designkit.git"
-  },
-  "author": "lil software, LLC",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/lil-software/designkit/issues"
-  },
-  "homepage": "https://github.com/lil-software/designkit",
-  "devDependencies": {
-    "@types/node": "^20.6.0",
-    "@types/react": "^18.0.28",
-    "react": "^18.2.0",
-    "typescript": "^4.9.5"
+  "name": "DesignKit",
+  "version": "0.0.1",
+  "dependencies": {
+    "cssnano": "^6.0.1",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0"
   },
   "scripts": {
-    "build": "rm -rf dist && bun build ./src --outdir ./dist && tsc --declaration"
+    "bundle": "postcss lib/main.css -o dist/main.$npm_package_version.css"
   }
 }
