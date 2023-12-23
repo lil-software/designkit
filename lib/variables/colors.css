@@ -24,28 +24,25 @@
 }
 
 /* Dark */
-@media (prefers-color-scheme: dark) {
-  :root,
-  [color-scheme="dark"] {
-    --color-red: #ff453a;
-    --color-orange: #ff9f0a;
-    --color-yellow: #ffd60a;
-    --color-green: #30d158;
-    --color-mint: #64d2ff;
-    --color-teal: #0a84ff;
-    --color-cyan: #64d2ff;
-    --color-blue: #0a84ff;
-    --color-indigo: #5856d6;
-    --color-purple: #bf5af2;
-    --color-pink: #ff375f;
-    --color-brown: #b98b6d;
-    --color-gray: #8e8e93;
-    --color-gray2: #636366;
-    --color-gray3: #48484a;
-    --color-gray4: #3a3a3c;
-    --color-gray5: #2c2c2e;
-    --color-gray6: #1c1c1e;
-  }
+[color-scheme="dark"] {
+  --color-red: #ff453a;
+  --color-orange: #ff9f0a;
+  --color-yellow: #ffd60a;
+  --color-green: #30d158;
+  --color-mint: #64d2ff;
+  --color-teal: #0a84ff;
+  --color-cyan: #64d2ff;
+  --color-blue: #0a84ff;
+  --color-indigo: #5856d6;
+  --color-purple: #bf5af2;
+  --color-pink: #ff375f;
+  --color-brown: #b98b6d;
+  --color-gray: #8e8e93;
+  --color-gray2: #636366;
+  --color-gray3: #48484a;
+  --color-gray4: #3a3a3c;
+  --color-gray5: #2c2c2e;
+  --color-gray6: #1c1c1e;
 }
 
 /* White */
