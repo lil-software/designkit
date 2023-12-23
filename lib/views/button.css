@@ -1,3 +1,9 @@
-button {
+button,
+.button {
   font-size: var(--font-body);
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  cursor: pointer;
+  padding: var(--padding-small) var(--padding);
+  border-radius: 999px;
 }

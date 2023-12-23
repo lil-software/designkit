@@ -2,7 +2,39 @@ text,
 [font="body"] {
   font-size: var(--font-body);
 }
-
 [font="large-title"] {
   font-size: var(--font-large-title);
+  font-weight: 500;
+}
+[font="title1"] {
+  font-size: var(--font-title1);
+  font-weight: 500;
+}
+[font="title2"] {
+  font-size: var(--font-title2);
+  font-weight: 500;
+}
+[font="title3"] {
+  font-size: var(--font-title3);
+  font-weight: 500;
+}
+[font="headline"] {
+  font-size: var(--font-headline);
+  font-weight: 500;
+}
+[font="callout"] {
+  font-size: var(--font-callout);
+}
+[font="subheadline"] {
+  font-size: var(--font-subheadline);
+  font-weight: 500;
+}
+[font="footnote"] {
+  font-size: var(--font-footnote);
+}
+[font="caption1"] {
+  font-size: var(--font-caption1);
+}
+[font="caption2"] {
+  font-size: var(--font-caption2);
 }

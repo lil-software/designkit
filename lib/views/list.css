@@ -8,3 +8,6 @@ list > * {
   border-bottom: 1px solid var(--color-gray);
   padding: var(--padding) 0;
 }
+list > *:last-child {
+  border-bottom: none;
+}

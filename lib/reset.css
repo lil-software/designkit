@@ -5,6 +5,9 @@
   list-style: none;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
 html,

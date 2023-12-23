@@ -1,14 +1,22 @@
-@import "https://rsms.me/inter/inter.css";
-
 /* Defaults */
 :root {
   --font-size: 16px;
   font-size: var(--font-size);
-  font-family: "Inter", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Fonts */
+
 :root {
   --font-body: 1rem;
   --font-large-title: 3rem;
+  --font-title1: 2rem;
+  --font-title2: 1.5rem;
+  --font-title3: 1.25rem;
+  --font-headline: 1.0625rem;
+  --font-callout: 0.9375rem;
+  --font-subheadline: 0.9375rem;
+  --font-footnote: 0.8125rem;
+  --font-caption1: 0.75rem;
+  --font-caption2: 0.6875rem;
 }
